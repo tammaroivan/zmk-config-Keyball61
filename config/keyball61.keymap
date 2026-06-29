@@ -37,7 +37,7 @@
 &kp TAB           &kp Q         &kp W   &kp E   &kp R         &kp T                                        &kp Y          &kp U   &kp I      &kp O    &kp P          &kp MINUS
 &kp CAPS          &kp A         &kp S   &kp D   &kp F         &kp G                                        &kp H          &kp J   &kp K      &kp L    &kp SEMI       &kp SQT
 &kp LEFT_SHIFT    &kp Z         &kp X   &kp C   &kp V         &kp B   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N          &kp M   &kp COMMA  &kp DOT  &kp FSLH       &kp EQUAL
-&kp LEFT_CONTROL  &kp LEFT_ALT  &mo 1   &mo 2   &kp LEFT_GUI  &trans  &kp SPACE         &kp ENTER          &kp BACKSPACE                              &kp RIGHT_ALT  &kp DELETE
+&kp LEFT_CONTROL  &kp LEFT_ALT  &mo SYM  &mo FUN  &kp LEFT_GUI  &trans  &kp SPACE        &kp ENTER          &kp BACKSPACE                              &kp RIGHT_ALT  &kp DELETE
             >;
         };
 
@@ -56,8 +56,8 @@
             label = "FUN";
             bindings = <
 &trans  &trans  &trans   &trans   &trans   &trans                  &trans  &trans    &trans          &trans     &trans     &trans
-&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans                  &trans  &kp HOME  &kp PAGE_DOWN   &kp PG_UP  &kp END    &trans
-&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans                  &trans  &kp LEFT  &kp DOWN_ARROW  &kp UP     &kp RIGHT  &trans
+&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans                  &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans
+&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans                  &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans
 &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans    &trans          &trans     &trans     &trans
 &trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans                                       &trans     &trans
             >;
@@ -68,8 +68,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &mo 4   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &mo 4
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mo 5      &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &mo SCROLL  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &mo SCROLL
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &mo SNIPE  &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                   &trans  &trans
             >;
         };
